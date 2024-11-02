@@ -1,6 +1,5 @@
 use std::env;
 use std::fs::File;
-use std::io::Read;
 
 mod value;
 mod bytecode;
@@ -16,6 +15,6 @@ fn main() {
     }
     let file = File::open(&args[1]).unwrap();
 
-    let proto = parse::load(file);
+    let proto = parse::ParseProto::load(file);
     vm::ExeState::new().execute(&proto);
 }
