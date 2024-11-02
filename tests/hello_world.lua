@@ -1,3 +1,3 @@
 print "hello, world!"
-print "hi"
+print "你好"
 print "hi, 😀"
