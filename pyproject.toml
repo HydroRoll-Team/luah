@@ -33,7 +33,7 @@ repository = "https://github.com/HydroRoll-Team/luah"
 documentation = "https://luah.hydroroll.team/"
 
 [project.scripts]
-luah = "luah.cli:main"
+luah = "luah.__main__:Cli"
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
