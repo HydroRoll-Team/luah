@@ -1,13 +1,13 @@
 [package]
 name = "luah"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 description = "An unofficial lua impl by HydroRoll-Team."
-license = "AGPLv3"
+license = "AGPL-3.0-or-later"
 documentation = "https://luah.hydroroll.team/"
 homepage = "https://hydroroll.team/"
 repository = "https://github.com/HydroRoll-Team/luah"
-authors = ["yourname"]
+authors = ["HsiangNianian <i@jyunko.cn>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]

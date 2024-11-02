@@ -14,7 +14,7 @@ dependencies = [
 requires-python = ">=3.9"
 readme.content-type = "text/x-rst"
 readme.file = "README.rst"
-license = {text = "AGPLv3"}
+license = {text = "AGPL-3.0"}
 keywords = ["hydroroll", "lua", "pyo3"]
 classifiers = [
     "Development Status :: 5 - Production/Stable", 
